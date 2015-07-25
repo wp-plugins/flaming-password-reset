@@ -1,0 +1,112 @@
+h2 {
+    background: #000;
+    color: #fff;
+    padding: 30px 20px !important;
+    border-bottom: 3px solid #0074a2;
+    margin: 20px 0 0 0 !important;
+}
+
+h2 span {
+    color: #ccc;
+    font-size: 0.6em;
+}
+
+.flaming_form .table-options, .flaming_form .table-confirm {
+    width: 100%;
+    background: #fff;
+    padding: 10px 0 0 0;
+}
+
+.flaming_form .table-options th, .flaming_form .table-confirm th {
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+    font-size: 1.15em;
+}
+
+.flaming_form .table-confirm th {
+    text-align: center;
+}
+
+.flaming_form .table-options th, .flaming_form .table-options td {
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    padding: 10px;
+}
+
+.flaming_form .table-options th span {
+    display: block;
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-top: 10px;
+    cursor: default;
+}
+
+.flaming_form .table-options td {
+    vertical-align: top;
+}
+
+.flaming_form .table-options td input[type="text"] {
+    width: 80%;
+    padding: 10px;
+}
+
+.flaming_form .table-options td input[type="checkbox"] {
+    margin: 10px;
+}
+
+.flaming_form .padding-left-20 {
+    padding-left: 20px;
+}
+
+.ui-tooltip {
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 7px black;
+    max-width: 400px;
+}
+
+.flaming_form {
+    margin: 0 1px !important;
+    padding: 0;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+.flaming_form .flaming_button_list:first-child {
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+
+.flaming_form .flaming_button_list:last-child {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.6);
+}
+
+.flaming_form .flaming_buttons {
+    float: right;
+    padding: 5px;
+}
+
+.flaming_notices {
+    float: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.flaming_success {
+    color: #00AA00;
+}
+
+.flaming_error {
+    color: #AA0000;
+}
+
+.flaming_warning {
+    color: #BBBB00;
+    display: none;
+}
+
+.wrap {
+    padding: 0 !important;
+}
