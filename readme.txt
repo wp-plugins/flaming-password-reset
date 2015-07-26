@@ -31,8 +31,8 @@ Go into the "Users" section and mouse over the user to reveal the Edit, Delete, 
 
 1. The settings page allows you to customize the emails going out to your users. This page showcases some shortcodes.
 2. To initiate a password reset go to the User tab and mouse over the user.
-3. You can see below that after clicking “Reset Password” you see a short profile card including avatar, username, and email address. Also you can see we automatically generate a password for your user, however you can specify another password instead, but don’t forget to click “Reset Password” to apply those changes!
-4. You should then see one of two messages; “Successfully changed the users password and sent them an email.” which is obvious, or you may also see an error message. This typically means that you’ll need to setup an SMTP server.
+3. You can see below that after clicking "Reset Password" you see a short profile card including avatar, username, and email address. Also you can see we automatically generate a password for your user, however you can specify another password instead, but don’t forget to click "Reset Password" to apply those changes!
+4. You should then see one of two messages; "Successfully changed the users password and sent them an email." which is obvious, or you may also see an error message. This typically means that you’ll need to setup an SMTP server.
 
 == Changelog ==
 
