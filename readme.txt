@@ -7,11 +7,11 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin was created to help with user management, giving admin a quick and easy way to reset user's passwords.
+This plugin was created to help with user management, giving admins a quick and easy way to reset user's passwords.
 
 == Description ==
 
-    This is a really simple plugin that has saved me allot of time and effort for a task I tend to have to repeat offen. I know I could forward my users onto the forgotten password page but we believe in great customer service so, we built a plugin to make this an easy process!
+    This is a really simple plugin that has saved us a lot of time and effort for a task I tend to have to repeat often. I know I could forward my users onto the forgotten password page but we believe in great customer service, so we built a plugin to make this an easy process!
 
 == Installation ==
 
