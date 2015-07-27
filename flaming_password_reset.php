@@ -4,14 +4,14 @@
 	 * Plugin Name: Flaming Password Reset
 	 * Plugin URI: http://websitesby.projectcaruso.com
 	 * Description: Adds the ability for admins to initiate the password reset process for their users.
-	 * Version: 1.0.0
+	 * Version: 1.0.1
 	 * Author: Project Caruso
 	 * Author: Chris Butcher
 	 * Author URI: http://websitesby.projectcaruso.com
 	 */
 
 	// The current version of this plugin.
-	define('FLAMING_PASSWORDRESET_VER', '1.0.0');
+	define('FLAMING_PASSWORDRESET_VER', '1.0.1');
 
 	// Location of the plugin on the filesystem.
 	define('FLAMING_PASSWORDRESET_DIR', rtrim(dirname(__FILE__), '\\/').'/');
@@ -29,7 +29,7 @@
 	 * Class FlamingPasswordReset
 	 *
 	 * @author Project Caruso
-	 * @version 1.0.0
+	 * @version 1.0.1
 	 * @package FlamingPasswordReset
 	 */
 	class FlamingPasswordReset
@@ -56,7 +56,7 @@
 
 				// This is so we can use PHPs header() function
 				ob_start();
-				add_action('wp_footer', function(){ ob_end_flush(); });
+				add_action('wp_footer', array($this, 'OutputBuffer'));
 			}
 		}
 
@@ -127,6 +127,15 @@
 		{
 			$Actions['Reset Password'] = '<a href="admin.php?page='.FLAMING_PASSWORD_RESET_PAGE.'&id='.$User->ID.'">Reset Password</a>';
 			return $Actions;
+		}
+
+		/**
+		 * Outputs the contents of the buffer.
+		 * This allows us to use PHP's header() function for redirects.
+		 */
+		public function OutputBuffer()
+		{
+			ob_end_flush();
 		}
 	}
 
